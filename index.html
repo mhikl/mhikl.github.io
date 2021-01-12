@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web development and design portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, web, design, portfolio, ">
+    <meta name="author" content="HIKL">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+    <title>Marko Hikl</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-col w-screen" style="background-image: url(images/bg_hexa_black.jpg);">
+    <header class="fixed w-screen">
+        <div class=" flex justify-between bg-gray-300 opacity-80 hover:opacity-100 ">
+            <div class="flex">
+                <div class=""><a href="index.html"><img class="h-24" src="images/logo.png" alt="logo" height="20px"></a>
+                </div>
+                <div class="justify-center items-center font-sans font-extrabold py-4">
+                    <p>MARKO</p>
+                    <p>HIKL</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <div class="m-2 p-4 hover:bg-gray-500 rounded-lg"><a class="uppercase" href="#about">About</a></div>
+                <div class="m-2 p-4 hover:bg-gray-500 rounded-lg "><a class="uppercase" href="#portfolio">portfolio</a>
+                </div>
+                <div class="m-2 mr-8 p-4 hover:bg-gray-500 rounded-lg "><a class="uppercase" href="#contact">contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class=" flex flex-col items-center justify-center  ">
+        <div id="about"
+            class="flex flex-col items-center justify-center m-4 pt-24 text-gray-900 text-center font-8 border-b-4 border-gray-100">
+
+            <!--landing-->
+            <div class="">
+                <img class="h-64" src="images/skils.jpg" alt="person working on computer">
+            </div>
+            <div class=" bg-gray-300 opacity-90 w-5/6  p-4 ">
+                <h1 class="font-bold">Marko Hikl</h1>
+                <p>Hey, my name is Marko. 22 year old student from Valpovo, Croatia dedicated to learning new things</p>
+                <p>At this point I am learning HTML, CSS and JavaScript. But in the near future, I am hoping to
+                    become fullstack Developer.</p>
+            </div>
+        </div>
+        <!--/landing-->
+
+        <div class="md:h-64 h-8"></div>
+
+        <!--about-->
+        <div></div>
+        <!--/about-->
+
+        <div class="md:h-64 h-8"></div>
+
+        <!--portfolio-->
+        <div id="portfolio" class="uppercase text-red-900 pt-24 pb-2 underline text-6xl">portfolio</div>
+        <div><img src="images/multi.jpg" alt=""></div>
+        <div class="flex-col md:flex-row items-center justify-center">
+
+            <!--landing page -->
+            <div class="flex items-center justify-center border-b-2 border-gray-100 m-4 pb-4">
+                <div class="hover:bg-blue-500">
+                    <div><img class="hover:opacity-80 h-64" src="images/landing.jpg" alt=""></div>
+                </div>
+                <div class="text-gray-900 bg-gray-300 opacity-80 m-2 p-4 uppercase">designing custom landing pages.
+                </div>
+            </div>
+            <!--/landing page-->
+
+            <!--business page-->
+            <div class="flex items-center justify-center border-b-2 border-gray-100 m-4 pb-4">
+                <div class="text-gray-900 bg-gray-300 opacity-80 m-2 p-4 uppercase">designing private and business
+                    pages.</div>
+                <div class="hover:bg-red-500">
+                    <div><img class="hover:opacity-80 h-64" src="images/business.jpg" alt=""></div>
+                </div>
+            </div>
+            <!--/business page-->
+
+            <!--webshop page-->
+            <div class="flex items-center justify-center border-b-2 border-gray-100 m-4 pb-4">
+                <div class="hover:bg-blue-500">
+                    <div><img class="hover:opacity-80 h-64" src="images/shop.jpg" alt=""></div>
+                </div>
+                <div class="text-gray-900 bg-gray-300 opacity-80 m-2 p-4 uppercase">designing webshop and
+                    dropshiping pages.</div>
+            </div>
+            <!--/webshop page-->
+
+            <!--custom page-->
+            <div class="flex items-center justify-center border-b-2 border-gray-100 m-4 pb-4">
+                <div class="text-gray-900 bg-gray-300 opacity-80 m-2 p-4 uppercase">designing everythink you can
+                    imagine!</div>
+                <div class="hover:bg-red-500">
+                    <div><img class="hover:opacity-80 h-64" src="images/soon.jpg" alt=""></div>
+                </div>
+            </div>
+            <!--/custom page-->
+        </div>
+        <!--/portfolio-->
+
+        <div class="md:h-64 h-8"></div>
+
+        <!--contact-->
+        <div id="contact" class="uppercase text-red-900 pt-24 pb-2 underline text-6xl">contact</div>
+        <div><img src="images/think.jpg" alt=""></div>
+
+        <!--contact form-->
+        <div>
+            <div class="flex flex-col md:flex-row">
+                <div class="m-4 p-2"> <input class="focus:placeholder-transparent" type="text" name="name" id="name"
+                        placeholder="First Name">
+                </div>
+                <div class="m-4 p-2"> <input class="focus:placeholder-transparent" type="text" name="email" id="email"
+                        placeholder="Email">
+                </div>
+            </div>
+            <div class="mx-4 p-2"><textarea class="focus:placeholder-transparent w-full"
+                    placeholder="Message"></textarea>
+            </div>
+            <div class="mx-8 my-2"><button class=" p-4 bg-blue-500 text-center w-full">Send</button></div>
+        </div>
+        <!--/contact form-->
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
