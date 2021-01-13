@@ -22,12 +22,15 @@
 <header class="fixed w-screen">
     <div class=" flex justify-between bg-gray-300 opacity-80 hover:opacity-100 ">
         <div class="flex">
-            <div class=""><a href="landing.html"><img class="h-24" src="images/logo.png" alt="logo" height="20px"></a>
+            <div class="sr-only sm:not-sr-only"><a href="landing.html"><img class="h-24" src="images/logo.png"
+                        alt="logo" height="20px"></a>
             </div>
-            <div class="justify-center items-center font-sans font-extrabold py-4">
-                <p>MARKO</p>
-                <p>HIKL</p>
-            </div>
+            <a href="landing.html">
+                <div class="justify-center items-center font-sans font-extrabold py-4 sm:-ml-2 ml-4">
+                    <p>MARKO</p>
+                    <p>HIKL</p>
+                </div>
+            </a>
         </div>
         <div class="flex items-center justify-center">
             <div class="m-2 p-4 hover:bg-gray-500 rounded-lg"><a class="uppercase" href="#about">About</a></div>
