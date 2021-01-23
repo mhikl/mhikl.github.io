@@ -121,36 +121,40 @@
     <div><img src="images/think.jpg" alt=""></div>
 
     <!--contact form-->
-    <div>
-        <div class="flex flex-col md:flex-row">
-            <div class="m-4 p-2"> <input class="focus:placeholder-transparent" type="text" name="name" id="name"
-                    placeholder="First Name">
+    <form action="">
+        <div>
+            <div class="flex flex-col md:flex-row">
+
+                <div class="m-4 p-2"> <input required class="focus:placeholder-transparent" type="text" name="name"
+                        id="name" placeholder="First Name">
+                </div>
+                <div class="m-4 p-2"> <input required class="focus:placeholder-transparent" type="text" name="email"
+                        id="email" placeholder="Email">
+                </div>
             </div>
-            <div class="m-4 p-2"> <input class="focus:placeholder-transparent" type="text" name="email" id="email"
-                    placeholder="Email">
+            <div class="mx-4 p-2"><textarea class="focus:placeholder-transparent w-full"
+                    placeholder="Message"></textarea>
             </div>
+            <div class="mx-8 my-2"><button type="submit" class=" p-4 bg-blue-500 text-center w-full">Send</button></div>
         </div>
-        <div class="mx-4 p-2"><textarea class="focus:placeholder-transparent w-full" placeholder="Message"></textarea>
-        </div>
-        <div class="mx-8 my-2"><button class=" p-4 bg-blue-500 text-center w-full">Send</button></div>
-    </div>
+    </form>
     <!--/contact form-->
 </main>
 
-<footer class="w-screen bg-gray-900 text-gray-300 text-sm">
-    <div class="flex justify-between">
-        <div class="m-16 sm:m-4">
-            <p class="m-2 p-2">Marko Hikl</p>
-            <p class="m-2 p-2">Matije Gupca xx</p>
-            <p class="m-2 p-2">**********</p>
-            <p class="m-2 p-2">hiklmarko@gmail.com</p>
-            <p class="m-2 p-2">09* *** ****</p>
+<footer class="bg-gray-900 text-gray-300 text-sm">
+    <div class="flex justify-evenly">
+        <div class="m-8 sm:m-1 p-2">
+            <p class="my-2 p-2">Marko Hikl</p>
+            <p class="my-2 p-2">Matije Gupca xx</p>
+            <p class="my-2 p-2">**********</p>
+            <p class="my-2 p-2">hiklmarko@gmail.com</p>
+            <p class="my-2 p-2">09* *** ****</p>
         </div>
-        <div class="m-16 sm:m-4">
-            <div class="m-2 p-2"><a href="landing.html">Landing page</a></div>
-            <div class="m-2 p-2"><a href="#about">About</a></div>
-            <div class="m-2 p-2"><a href="#portfolio">Portfolio</a></div>
-            <div class="m-2 p-2"><a href="#contact">Contact</a></div>
+        <div class="m-8 sm:m-1 p-2">
+            <div class="my-2 p-2"><a href="landing.html">Landing page</a></div>
+            <div class="my-2 p-2"><a href="#about">About</a></div>
+            <div class="my-2 p-2"><a href="#portfolio">Portfolio</a></div>
+            <div class="my-2 p-2"><a href="#contact">Contact</a></div>
         </div>
     </div>
 </footer>
